@@ -1,0 +1,206 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Poppins", sans-serif;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 9rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+a {
+  font-size: 1rem;
+}
+
+.button {
+  padding: 1rem 3rem;
+  width: fit-content;
+  background-color: #B2D234;
+  color: #ffffff;
+  border-radius: 7px;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.button-white {
+  background-color: #ffffff;
+  color: #B2D234;
+}
+
+.home {
+  width: auto;
+  height: 100vh;
+  background-size: cover;
+  background-image: url(img/header.png);
+  color: #ffffff;
+}
+.home .title {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 160px;
+}
+.home .title div {
+  padding: 10rem;
+  margin: 0 auto;
+  text-align: left;
+}
+.home .title h2 {
+  transform: rotate(-9deg);
+  font-weight: 100;
+  font-style: italic;
+  position: relative;
+  top: 30px;
+  left: 80px;
+}
+
+.social {
+  display: flex;
+  justify-content: flex-end;
+}
+.social div {
+  padding: 20px 60px;
+}
+.social div img {
+  padding: 5px;
+}
+
+header {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
+header nav :last-child {
+  background-color: #ffffff;
+  color: #B2D234;
+  border-radius: 8px;
+}
+header nav li {
+  padding: 10px 40px;
+  font-weight: lighter;
+}
+
+.salad1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url(img/bck_waves.png);
+}
+.salad1 div:nth-of-type(1) {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10rem;
+}
+.salad1 div:nth-of-type(1) h2 {
+  color: #B2D234;
+  padding: 50px 0;
+}
+.salad1 div:nth-of-type(1) p {
+  padding: 1.5rem 0;
+}
+.salad1 .img_salad {
+  width: 60%;
+  background-image: url(img/salade-detoure.png);
+}
+
+.prepared {
+  background-image: url(img/bck_prepared.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.prepared div {
+  padding: 5rem 0;
+}
+
+.prep_container {
+  display: flex;
+  flex-direction: column;
+  background-color: #b3d234bf;
+  max-width: 800px;
+  color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  position: relative;
+  left: 200px;
+  align-items: center;
+}
+.prep_container h2 {
+  padding: 0.5rem 4rem;
+}
+.prep_container p {
+  padding: 3rem 4rem;
+}
+
+/*# sourceMappingURL=main.css.map */
